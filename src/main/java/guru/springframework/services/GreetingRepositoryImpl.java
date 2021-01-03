@@ -1,4 +1,4 @@
-package guru.services;
+package guru.springframework.services;
 
 import org.springframework.stereotype.Component;
 
@@ -20,8 +20,6 @@ public class GreetingRepositoryImpl implements GreetingRepository {
 
     @Override
     public String getGermanGreeting() {
-
         return "Primärer Grußdienst";
-
     }
 }
